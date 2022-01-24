@@ -6,3 +6,4 @@ echo $2 # Second Argument
 echo $# # Number of Arguments
 echo $* # All the arguments
 echo $@ # All the arguments
+
