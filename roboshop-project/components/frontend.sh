@@ -9,7 +9,7 @@ echo "Downloading Frontend Content"
 curl -s -L -o /tmp/frontend.zip "https://github.com/roboshop-de
 vops-project/frontend/archive/main.zip" &>>$LOGFILE
 
-echo"Clean Old Content"
+echo "Clean Old Content"
 rm -rf /usr/share/nginx/html/*  &>>$LOG_FILE
 
 echo "Extract Frontend Content"
