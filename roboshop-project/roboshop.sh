@@ -1,5 +1,3 @@
 #!/bin/bash
 
-frontend
-mongodb
-catalouge
+bash components/$1.sh
