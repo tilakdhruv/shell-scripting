@@ -29,5 +29,8 @@
 source components/common.sh
 
 echo "Download Mpngodb repo file"
-curl -s -o /etc/yum.repos.d/mongodb.repo https://raw.githubusercontent.com/roboshop-devops-project/mongodb/main/mongo.repo
+curl -s -o /etc/yum.repos.d/mongodb.repo https://raw.githubusercontent.com/roboshop-devops-project/mongodb/main/mongo.repo &>>$LOG_FILE
+
+echo "Installing mongodb"
+yum install -y mongodb-org &>>$LOG_FILE
 
