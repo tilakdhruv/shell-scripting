@@ -1,1 +1,2 @@
-echo installing mongodb
+source components/common.sh
+
