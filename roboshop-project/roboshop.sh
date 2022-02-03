@@ -1,4 +1,3 @@
-nes (13 sloc)  378 Bytes
 
 #!/bin/bash
 
