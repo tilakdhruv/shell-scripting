@@ -41,3 +41,5 @@ echo "Start Database"
 systemctl enable mongod &>>$LOG_FILE
 systemctl start mongod &>>$LOG_FILE
 
+
+
