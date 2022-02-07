@@ -67,4 +67,3 @@ elif [ "$1" == "all" ]; then
 else
   INSTANCE_CREATE $1
 fi
-
